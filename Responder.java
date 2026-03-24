@@ -27,6 +27,7 @@ public class Responder
         responses.add("Please read the manual.");
         responses.add("Please call an expert.");
         responses.add("Please reboot.");
+        responses.add("Unfortunately, this seems like a problem out of our expertise.");
         responses.add("That sounds interesting. Tell me more...");
     }
     
