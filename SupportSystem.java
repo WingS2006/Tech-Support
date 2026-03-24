@@ -40,7 +40,7 @@ public class SupportSystem
         while(!finished) {
             String input = reader.getInput();
 
-            if(input.trim().startsWith("bye")) {
+            if(input.trim().toLowerCase().startsWith("bye")) {
                 finished = true;
             }
             else {
